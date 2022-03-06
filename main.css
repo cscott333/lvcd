@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,500&display=swap');
+
+body {
+    background-color: rgb(182, 183, 196); 
+    font-family: 'Poppins';
+    margin: 0;
+    flex-wrap: wrap;
+}   
+
+.navbar {
+    background: rgb(255, 255, 255);
+    padding: 1em;
+    
+
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+    
+}
+
+span {
+    color:rgb(34, 122, 180) ;
+}
+
+nav {
+display: none;
+}
+
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
+.mobile-menu {
+    cursor: pointer;
+
+}
+
+a {
+    color: rgb(49, 49, 49);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 3em 2em;
+}
+
+.hero {
+    text-align:center;
+}
+
+.subhead {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 45, 68);
+    letter-spacing: .4em
+    ;
+
+}
+
+.hero-img {
+    margin: 0;
+    text-align: center;
+    padding: 2;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-top: .2em;
+}
+
+.primary-cta {
+    background: rgb(34, 122, 180);
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-size: 1em;
+    border-radius: 4em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.watch-video-cta{
+    display: block;
+    margin-top: 1em;
+    
+}
+
+img{
+    margin-right: .5em;
+    
+}
+
+.hero-img {
+    width: 70%;
+    margin-top: 2em;
+}
+
+section.features-section {
+    background: rgb(16, 40, 63);
+    color: white;
+}
+
+ul.features-list {
+    margin: 0;
+    padding-left: .2em;
+    
+}
+
+.li-features {
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    
+
+
+}
+
+.features-section img {
+    display: none;
+}
+
+img.panda{
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: -4em;
+    text-align: center;
+}
+
+section.testimonials-section {
+    background: rgb(68, 149, 224);
+    color: white;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+
+.block-quote-testimonials {
+    background: rgb(123, 173, 230);
+    text-align: center;
+    border-radius: 1em;
+
+    
+}
+
+.li-testimonials {
+    background: rgb(123, 173, 230);
+    text-align: center;
+    padding: 2em 1em;
+    width: 70%;
+    margin: 0 auto 5em;
+    border-radius: 1em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: .6em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .7em;
+    border-radius: 1em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+
+}
+
+input[type="submit"]{
+    background-color: rgb(34, 122, 180);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    margin-bottom: 7em;
+    border-radius: 5em;
+    display: inline-block;
+    width: unset;
+    cursor: pointer;
+    padding: .9em 2em;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    length: 200px
+
+}
+
+nav.menu-btn {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background-color: rgb(16, 40, 63);
+    height: 100vh;
+    padding: 1em;
+}
+
+ul.primary-nav {
+    margin-top: 5em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .5em;
+    font-size: 1.3em;
+    text-align: right;
+    
+}
+
+ nav a:hover {
+    font-weight: bold;
+}
+
+
+.mobile-menu-exit {
+    float: right;
+    margin: .4em;
+    cursor:pointer
+}
+
+.hero-cta a:hover {
+    font-weight: bold;
+    color: white;
+}
